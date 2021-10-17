@@ -1,11 +1,21 @@
 import React from 'react'
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
+import GolfCourse from '@material-ui/icons/GolfCourse';
+import { Toolbar, AppBar, Typography, Button, Link } from '@material-ui/core';
 
 const Navbar = () => {
   return (
-    <AppBar position="static">
-      <Toolbar>Navbar</Toolbar>
+    <AppBar 
+        position="static"
+        color="primary"
+    >
+      <Toolbar>
+          <GolfCourse /> 
+          <Typography
+            variant="h6"
+          >
+            Golf Score Tracker
+          </Typography>          
+      </Toolbar>
     </AppBar>
   );
 };
