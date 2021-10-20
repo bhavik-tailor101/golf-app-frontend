@@ -1,0 +1,13 @@
+[
+    {
+        "id":1,
+        "courseName":"Pine View Golf Course",
+        "address":"1471 Blair Road, Gloucester, ON K1B4S3"
+    },
+    {
+        "id":2,
+        "courseName":"Metcalfe Golf Course",
+        "address":"1956 8th Line Rd, Metcalfe, ON K0A 2P0"
+    }
+]
+
